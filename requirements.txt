@@ -152,7 +152,7 @@ python-multipart==0.0.12
 python-telegram-bot==12.0.0
 pytweening==1.2.0
 pytz==2024.1
-pywin32==306
+pywin32==305; sys_platform == "win32"  # only for Windows
 pywinpty==2.0.14
 PyYAML==6.0.2
 pyzbar==0.1.9
